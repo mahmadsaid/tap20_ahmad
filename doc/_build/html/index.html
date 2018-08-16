@@ -1,0 +1,366 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="no">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to Week 5’s documentation! &#8212; Week 5 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Week 5 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-week-5-s-documentation">
+<h1>Welcome to Week 5’s documentation!<a class="headerlink" href="#welcome-to-week-5-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+<div class="section" id="module-API">
+<span id="auto-module"></span><h1>Auto Module<a class="headerlink" href="#module-API" title="Permalink to this headline">¶</a></h1>
+<p>The program is made to demonstrate api calls using requests.</p>
+<dl class="class">
+<dt id="API.BakerStreet">
+<em class="property">class </em><code class="descclassname">API.</code><code class="descname">BakerStreet</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#API.BakerStreet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#API.Street" title="API.Street"><code class="xref py py-class docutils literal notranslate"><span class="pre">API.Street</span></code></a></p>
+<dl class="method">
+<dt id="API.BakerStreet.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#API.BakerStreet.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>The constructor.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> (<em>str</em>) – The name of the street</li>
+<li><strong>coor</strong> (<em>str</em>) – can take a coordinate</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="API.BakerStreet.__str__">
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.BakerStreet.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">this only returns a string for the print function, it does not print the object.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns str:</th><td class="field-body">The string to be printed when printing the class.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="API.BakerStreet.get_incedents_year">
+<code class="descname">get_incedents_year</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.BakerStreet.get_incedents_year" title="Permalink to this definition">¶</a></dt>
+<dd><div class="line-block">
+<div class="line">The incident gatherer.</div>
+<div class="line">It increments <strong>incidents</strong> for every month of the year.</div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self</strong> – to use local variables</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="API.PrivetDrive">
+<em class="property">class </em><code class="descclassname">API.</code><code class="descname">PrivetDrive</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#API.PrivetDrive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#API.Street" title="API.Street"><code class="xref py py-class docutils literal notranslate"><span class="pre">API.Street</span></code></a></p>
+<dl class="method">
+<dt id="API.PrivetDrive.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#API.PrivetDrive.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>The constructor.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> (<em>str</em>) – The name of the street</li>
+<li><strong>coor</strong> (<em>str</em>) – can take a coordinate</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="API.PrivetDrive.__str__">
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.PrivetDrive.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">this only returns a string for the print function, it does not print the object.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns str:</th><td class="field-body">The string to be printed when printing the class.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="API.PrivetDrive.get_incedents_year">
+<code class="descname">get_incedents_year</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.PrivetDrive.get_incedents_year" title="Permalink to this definition">¶</a></dt>
+<dd><div class="line-block">
+<div class="line">The incident gatherer.</div>
+<div class="line">It increments <strong>incidents</strong> for every month of the year.</div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self</strong> – to use local variables</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="API.Street">
+<em class="property">class </em><code class="descclassname">API.</code><code class="descname">Street</code><a class="headerlink" href="#API.Street" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class that holds the methods and the variables for the street that is beeing searched.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Variables:</th><td class="field-body"><ul class="first last simple">
+<li><a class="reference internal" href="#API.Street.incidents" title="API.Street.incidents"><strong>incidents</strong></a> (<em>int</em>) – the incident counter.</li>
+<li><strong>url</strong> (<em>str</em>) – holds the API url</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="API.Street.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.Street.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="API.Street.__str__">
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.Street.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">this only returns a string for the print function, it does not print the object.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns str:</th><td class="field-body">The string to be printed when printing the class.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="API.Street.get_incedents_year">
+<code class="descname">get_incedents_year</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.Street.get_incedents_year" title="Permalink to this definition">¶</a></dt>
+<dd><div class="line-block">
+<div class="line">The incident gatherer.</div>
+<div class="line">It increments <strong>incidents</strong> for every month of the year.</div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self</strong> – to use local variables</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="API.Street.incidents">
+<code class="descname">incidents</code><em class="property"> = 0</em><a class="headerlink" href="#API.Street.incidents" title="Permalink to this definition">¶</a></dt>
+<dd><p>incidents is set to 0</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="API.get_all_Incodents">
+<code class="descclassname">API.</code><code class="descname">get_all_Incodents</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#API.get_all_Incodents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the incodents for all streets</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Returns tuple streets:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">Street objects with all incidents counted.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="auto-class">
+<h1>Auto Class<a class="headerlink" href="#auto-class" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt>
+<em class="property">class </em><code class="descclassname">API.</code><code class="descname">BakerStreet</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span></dt>
+<dd><p>Bases: <a class="reference internal" href="#API.Street" title="API.Street"><code class="xref py py-class docutils literal notranslate"><span class="pre">API.Street</span></code></a></p>
+<dl class="method">
+<dt>
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span></dt>
+<dd><p>The constructor.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> (<em>str</em>) – The name of the street</li>
+<li><strong>coor</strong> (<em>str</em>) – can take a coordinate</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dd><div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">this only returns a string for the print function, it does not print the object.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns str:</th><td class="field-body">The string to be printed when printing the class.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="descname">get_incedents_year</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dd><div class="line-block">
+<div class="line">The incident gatherer.</div>
+<div class="line">It increments <strong>incidents</strong> for every month of the year.</div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self</strong> – to use local variables</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Welcome to Week 5’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#module-API">Auto Module</a></li>
+<li><a class="reference internal" href="#auto-class">Auto Class</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Week 5 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Alexander Bjørnsrud.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>
