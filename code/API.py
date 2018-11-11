@@ -75,7 +75,7 @@ class PrivetDrive(Street):
         self.incidents = 0
 
 
-def get_all_Incodents():
+def get_all_Incedents():
     """
     Gets the incodents for all streets
 
@@ -89,4 +89,4 @@ def get_all_Incodents():
     return a,b
 
 
-[print(i) for i in get_all_Incodents()]
+[print(i) for i in get_all_Incedents()]
