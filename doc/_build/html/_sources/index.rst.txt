@@ -1,9 +1,9 @@
-.. Week 5 documentation master file, created by
-   sphinx-quickstart on Thu Aug 16 08:42:37 2018.
+.. CarDoc documentation master file, created by
+   sphinx-quickstart on Mon Jan 28 22:26:50 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Week 5's documentation!
+Welcome to CarDoc's documentation!
 ==================================
 
 .. toctree::
@@ -19,23 +19,9 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-Auto Module
-=================================
-.. automodule:: API
+CAR MUDOULE
+==================
+.. automodule:: Cars
    :members:
    :private-members:
    :special-members: __init__, __str__
-   :show-inheritance:
-   :inherited-members:
-
-
-Auto Class
-================================
-
-.. autoclass:: API.BakerStreet
-   :members:
-   :private-members:
-   :special-members: __init__, __str__
-   :show-inheritance:
-   :inherited-members:
-
